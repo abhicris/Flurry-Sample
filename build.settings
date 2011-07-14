@@ -1,0 +1,25 @@
+settings =
+{
+iphone =
+	{
+		plist =
+		{
+			UIAppFonts = 
+			{
+				"Harrowprint.ttf"
+			},
+
+            CFBundleIconFile = "Icon.png",
+            CFBundleIconFiles = {
+                    "Icon.png" , 
+                    "Icon@2x.png" , 
+                    "Icon-72.png" , 
+            },
+		},
+	},
+	androidPermissions =
+   {
+       "android.permission.INTERNET"
+   },
+
+}
